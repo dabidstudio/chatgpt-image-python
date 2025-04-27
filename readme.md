@@ -30,7 +30,7 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
 2. [OpenAI API 키 발급](https://github.com/dabidstudio/dabidstudio_guides/blob/main/get-openai-api-key.md)  
    (ChatGPT 이미지 생성 기능은 API 키가 필요합니다.)
 
-3. [조직 인증] (https://platform.openai.com/settings/organization/general) 완료하기
+3. [조직 인증](https://platform.openai.com/settings/organization/general) 완료하기
    (여권, 민증 등으로 본인 및 조직 인증 필요)
 
 4. API 사용 가격 확인하기
