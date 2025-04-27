@@ -1,5 +1,6 @@
 
 # 파이썬으로 ChatGPT 이미지 생성 자동화하기
+![image](https://github.com/user-attachments/assets/3c6d492f-1a3d-4433-9ed1-4cc3a759ac2a)
 
 Chat GPT의 최신 이미지 생성 기능이 API로 공개되었습니다! [링크](https://openai.com/index/image-generation-api)
 
