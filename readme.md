@@ -1,6 +1,8 @@
 
 # 파이썬으로 ChatGPT 이미지 생성 자동화하기
 
+Chat GPT의 최신 이미지 생성 기능이 API로 공개되었습니다! [링크](https://openai.com/index/image-generation-api)
+
 ChatGPT의 강력한 이미지 생성 API를 활용하여,  
 **다양한 테마와 스타일의 이미지를 한번에 생성하고 비교**할 수 있는 자동화 프로그램을 파이썬으로 구현합니다.
 
@@ -23,13 +25,13 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
 2. [OpenAI API 키 발급](https://github.com/dabidstudio/dabidstudio_guides/blob/main/get-openai-api-key.md)  
    (ChatGPT 이미지 생성 기능은 API 키가 필요합니다.)
 
-3. [조직 인증(Organization Verification) 완료하기](https://github.com/dabidstudio/dabidstudio_guides/blob/main/openai-org-verification.md)  
+3. 조직 인증(Organization Verification) 완료하기
    (여권, 주민등록증 등으로 본인 및 조직 인증 필요)
 
 4. API 사용 가격 확인하기
     - 고품질 정사각형 이미지(1024x1024) 1장 생성 비용: 약 0.2 USD (약 300원)
     - 여러 장 생성 시 요금이 빠르게 증가할 수 있으니 주의!
-    - [OpenAI Pricing 공식 안내](https://openai.com/pricing)
+    - [OpenAI Pricing 공식 안내](https://platform.openai.com/docs/pricing)
 
 5. `.env.example` 파일 복사 후, 본인의 API 키를 입력해 `.env` 파일로 저장하기
     ```bash
@@ -74,7 +76,7 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
 - 생성된 이미지를 한 번에 다운로드하는 기능 포함
 
 
-# 🎯 지금 바로 시작하세요!
+# 지금 바로 시작하기
 
 ```bash
 # 기본 사용법 확인
