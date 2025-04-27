@@ -18,7 +18,7 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
 
 1. 새 폴더를 만든 후 레포지토리 clone 또는 다운로드하기
     ```bash
-    git clone https://github.com/dabidstudio/chatgpt-image-automation.git . 
+    git clone https://github.com/dabidstudio/chatgpt-image-python.git . 
     ```
 
 2. [OpenAI API 키 발급](https://github.com/dabidstudio/dabidstudio_guides/blob/main/get-openai-api-key.md)  
