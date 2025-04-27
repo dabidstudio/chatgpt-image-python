@@ -16,10 +16,9 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
 
 ## 초기 셋팅
 
-1. 레포지토리 clone 또는 다운로드하기
+1. 새 폴더를 만든 후 레포지토리 clone 또는 다운로드하기
     ```bash
-    git clone https://github.com/dabidstudio/chatgpt-image-automation.git
-    cd chatgpt-image-automation
+    git clone https://github.com/dabidstudio/chatgpt-image-automation.git . 
     ```
 
 2. [OpenAI API 키 발급](https://github.com/dabidstudio/dabidstudio_guides/blob/main/get-openai-api-key.md)  
@@ -38,18 +37,18 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
     OPENAI_API_KEY=발급받은_키_입력
     ```
 
-6. 파이썬 가상환경 설정
+6. 파이썬 가상환경 생성 및 활성화
     ```bash
-    python -m venv venv
+    python -m venv .venv
     # Windows
-    venv\Scripts\activate
+    .venv\Scripts\activate
     # macOS/Linux
-    source venv/bin/activate
+    source .venv/bin/activate
     ```
 
 7. 필수 패키지 설치
     ```bash
-    pip install streamlit openai pillow
+    pip install streamlit openai python-dotenv ipykernel
     ```
 
 ---
@@ -58,7 +57,7 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
 
 ```
 ├── chatgpt-image-basics.ipynb       # 기본 사용법 예제 (Jupyter Notebook)
-├── ghibli-style-generator.py          # Streamlit 웹앱 (응용 프로젝트)
+├── app.py          # Streamlit 웹앱 (응용 프로젝트)
 ├── .env.example                     # 환경변수 예시 파일
 ```
 
@@ -70,7 +69,7 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
 - 한 장씩 이미지를 생성하는 기본 API 사용법
 - 다양한 프롬프트로 여러 이미지를 반복 생성하는 방법
 
-### ✅ Streamlit 웹앱 (`ghibli-style-generator.py`)
+### ✅ Streamlit 웹앱 (`app.py`)
 - 테마 입력 → 여러 장의 지브리 스타일 이미지 생성
 - 다양한 테마/각도/스타일을 동시에 비교할 수 있는 인터페이스 제공
 - 생성된 이미지를 한 번에 다운로드하는 기능 포함
@@ -83,13 +82,13 @@ ChatGPT의 강력한 이미지 생성 API를 활용하여,
 jupyter notebook chatgpt-image-basics.ipynb
 
 # 웹앱 실행
-streamlit run ghibli-style-generator.py
+streamlit run app.py
 ```
 
 ## 참고 자료
-https://openai.com/index/image-generation-api
-https://platform.openai.com/docs/guides/image-generation
-https://platform.openai.com/docs/api-reference/images
+- https://openai.com/index/image-generation-api
+- https://platform.openai.com/docs/guides/image-generation
+- https://platform.openai.com/docs/api-reference/images
 
 
 
